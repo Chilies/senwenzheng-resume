@@ -35,14 +35,18 @@ jQuery(document).ready(function($) {
         portrait_modal.open();
     });
     $('[data-remodal-id=portrait-modal] button').click(function(event) {
-        $(".portrait").css('background-image', 'url("{0}")'.format($("#avatar-url").val()));
+        //$(".portrait").css('background-image', 'url("{0}")'.format($("#avatar-url").val()));
+        //$(".portrait").css('background-image', 'http://58.87.93.34/image/zsw-avatar.jpg');
+        $(".weixin img").attr('src', 'http://58.87.93.34/image/zsw-avatar.jpg');
+
     });
     var weixin_modal = $('[data-remodal-id=weixin-modal]').remodal();
     $(".weixin").click(function(event) {
         weixin_modal.open();
     });
     $('[data-remodal-id=weixin-modal] button').click(function(event) {
-        $(".weixin img").attr('src', $("#weixin-url").val());
+        //$(".weixin img").attr('src', $("#weixin-url").val());
+        $(".weixin img").attr('src', 'http://58.87.93.34/image/zsw-wechat.jpg');
     });
 
     $('.info-header').hover(function() {
