@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>zsw's javaweb resume</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+<div class="container" id="cv">
+    <div class="side">
+        <div class="me">
+            <!--<div class="portrait"></div>-->
+            <br/>
+            <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="avatar-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
+            <h2 id="username">郑森文</h2>
+            <h1 id="persona-tag">Java 开发</h1>
+        </div>
+        <div class="profile info-unit">
+            <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+            <hr>
+            <ul class="info-list">
+                <li>
+                    <label class="left-label">姓名</label><span class="label-value">郑森文</span></li>
+                <li>
+                <li>
+                    <label class="left-label">性别</label><span class="label-value">女</span></li>
+                <li>
+                    <label class="left-label">学历</label><span class="label-value">本科</span></li>
+                <li>
+                    <label class="left-label">毕业院校</label><span class="label-value">四川旅游学院</span></li>
+                <li>
+                    <label class="left-label">毕业年份</label><span class="label-value">2018.6</span></li>
+                <li>
+                    <label class="left-label">政治面貌</label><span class="label-value">中共党员</span></li>
+
+            </ul>
+        </div>
+        <div class="contact info-unit">
+            <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+            <hr>
+            <ul class="info-list">
+                <li>
+                    <label class="left-label">手机</label><span class="label-value">18328023198</span></li>
+                <li>
+                    <label class="left-label">邮箱</label><span class="label-value">senwenzheng@qq.com</span></li>
+                <li>
+                    <label class="left-label">Github</label><span class="label-value">https://github.com/Chilies</span>
+                </li>
+            </ul>
+        </div>
+        <div class="skill info-unit">
+            <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+            <hr>
+            <ul class="progress-list">
+                <li>
+                    <label class="left-label">Java</label>
+                    <progress value="80" max="100"></progress>
+                </li>
+                <li>
+                    <label class="left-label">Android</label>
+                    <progress value="80" max="100"></progress>
+                </li>
+                <li>
+                    <label class="left-label">jQuery</label>
+                    <progress value="60" max="100"></progress>
+                </li>
+                <li>
+                    <label class="left-label">html/css</label>
+                    <progress value="70" max="100"></progress>
+                </li>
+            </ul>
+        </div>
+        <div class="stack info-unit">
+            <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+            <hr>
+            <ul class="stack-list">
+                <li>
+                    <label class="left-label">前端</label><span class="label-value">CSS、jQuery、HTML5、Ajax</span></li>
+                </li>
+                <li>
+                    <label class="left-label">后端</label><span class="label-value">
+                        SpringBoot、SpringMVC、Spring、Hibernate、JPA、Redis、JSP、Velocity、Thymeleaf</span></li>
+                </li>
+                <li>
+                    <label class="left-label">数据库</label><span class="label-value">
+                        SQLServer、MySQL</span></li>
+                </li>
+                <li>
+                    <label class="left-label">版本控制工具</label><span class="label-value">
+                         svn、Git</span></li>
+                </li>
+                <li>
+                    <label class="left-label">构建工具</label><span class="label-value">
+                         Maven、Gradle</span></li>
+                </li>
+                <li>
+                    <label class="left-label">开发工具</label><span class="label-value">
+                         idea</span></li>
+                </li>
+                <li>
+                    <label class="left-label">其它</label><span class="label-value">linux基础、Android</span></li>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="main">
+        <div class="education info-unit right-list">
+            <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+            <hr>
+            <ul class="experience-list">
+                <li>
+                    <h3>四川旅游学院 - 信息管理与信息系统（本科）2014.9-2018.6</h3>
+
+                    <p>本科期间，学习了C/Java/Android等编程语言，关系数据库、网络技术基础、软件工程项目管理、数据结构与算法等课程。
+                        期间参与开发了基于Android的城市定向旅游app项目，在四川省第十四届“挑战杯”竞赛中获得省二等奖。
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="work info-unit right-list">
+            <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+            <hr>
+            <ul class="experience-list">
+                <li>
+                    <h3>2017.6-2018.3</h3>
+                    <h3>301解放军总医院军需物资处－研发 - Java Web开发</h3>
+                    <h4><b>工作描述：</b></h4>
+                    <p>
+                        1、通过了解和分析实际需求，结合自己所掌握的技能，完成内科营养餐厅的美食导览网站的开发。
+                    </p>
+                    <p>
+                        2、负责对自己开发的系统进行功能性测试。
+                    </p>
+                    <p>
+                        3、对不同的PC端、不同的浏览器中进行适配，提高用户体验。主要针对内网中低版本的ie浏览器进行兼容。
+                    </p>
+                    <p>
+                        4、系统中很多数据不完善，自己采集和补充网站中所需的数据。
+                    </p>
+                    <p>
+                        5、负责部分设备安装与维修，文档编写的工作。
+                    </p>
+                    <p>
+                        6、完成直属领导安排的其他工作。
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="work info-unit right-list">
+            <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">项目经历</span></h2>
+            <hr>
+            <ul class="experience-list">
+                <li>
+                    <h3>2017.6-2018.3</h3>
+                    <h3>301医院内科营养餐厅美食网站</h3>
+                    <h4><b>项目简介：</b></h4>
+                    <p>
+                        整个项目是围绕军需物资处下辖各个餐厅的特色美食进行的，系统面向人群是医院内部医护工作者和病人及家属。
+                        系统主要分为以下功能模块:
+                    </p>
+                    <p>
+                        1.权限管理，该模块分为管理员管理、角色管理、用户角色权限配置、管理员可以添加、删除管理员和操作人员，
+                        为每个操作人员分配相应的权限，操作人员则对所辖餐厅进行数据维护和更新。
+                    </p>
+                    <p>
+                        2.各个餐厅用餐人数展示，通过系统可以查看各个餐厅人流数量，当前用餐人数，当前剩余座位数等，
+                        分析最近一周餐厅的用餐情况，实时向用户推荐用餐时间。
+                    </p>
+
+                    <p>
+                        3.各个餐厅信息特示，向用户展示各个餐厅简介，订餐电话，当前时间段的所有分类的美食。
+                    </p>
+
+                    <p>
+                        4.美食详情展示，向用户展示各个美食的详情页面。
+                    </p>
+                    <p>
+                        5. 外带食品展示，主要面向医院内部人员，分类展示当天可以从餐厅购买的外带副食食品。
+                    </p>
+                    <p>
+                        6.单位简介，向用户介绍本单位在医院的工作和服务内容，各个餐厅的具体地址和联系电话等。
+                    </p>
+
+                    <h4><b>开发环境：</b></h4>
+                    <p>
+                        idea、SQLServer2008R2
+                    </p>
+
+                    <h4><b>系统架构：</b></h4>
+                    <p>
+                        使用SpringBoot + hibernate + SQLServer2008R2 + thymeleaf + jQuery。
+                    </p>
+
+                    <h4><b>服务器环境：</b></h4>
+                    <p>
+                        使用centos6.5 + windowsServer。
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+    </div>
+</div>
+</body>
+
+</html>

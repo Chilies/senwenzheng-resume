@@ -17,7 +17,7 @@
 .icon-education:before { content: "\ebca"; }
 .icon-create:before { content: "\eaf8"; }
 .icon-call:before { content: "\eab6"; }
-.icon-weixin:before { content: "\3488"; }
+/*.icon-git:before { content: "\3488"; }*/
 .icon-build:before { content: "\eaa2"; }
 .icon-edit:before { content: "\eb31"; }
 .icon-flower:before { content: "\ec0a"; }
@@ -27,6 +27,10 @@
 
 span {
     display: inline-block;
+}
+
+p{
+    font-size: 18px;
 }
 
 .label-value{
@@ -64,7 +68,7 @@ h1, h2, h3, h4, h5 {
 .info-list, .progress-list{
     list-style: none;
     padding-left: 0px;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 2;
 }
 
@@ -169,7 +173,7 @@ progress::-moz-progress-value {
     margin-bottom: 20px;
 }
 
-.weixin{
+.git{
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #e0eaf0;   
@@ -179,7 +183,7 @@ progress::-moz-progress-value {
     text-align: center;
 }
 
-.weixin img{
+.git img{
     width: 200px;
 }
 
