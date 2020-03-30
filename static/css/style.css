@@ -33,10 +33,6 @@ p{
     font-size: 18px;
 }
 
-.label-value{
-    width: 200px;
-    vertical-align: top;
-}
 
 .iconfont {
     font-family:"iconfont" !important;
@@ -174,8 +170,8 @@ progress::-moz-progress-value {
 }
 
 .git{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: #e0eaf0;   
     position: relative;
     padding-top: 40px;
@@ -189,7 +185,12 @@ progress::-moz-progress-value {
 
 .left-label {
     display: inline-block;
-    width: 120px;
+    width: 80px;
+}
+
+.label-value{
+    width: 220px;
+    vertical-align: top;
 }
 
 .portrait {

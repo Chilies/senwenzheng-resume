@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>zsw's javaweb resume</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+<div class="container" id="cv">
+    <div class="side">
+        <div class="me">
+            <!--<div class="portrait"></div>-->
+            <br/>
+            <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="avatar-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
+            <h2 id="username">郑森文</h2>
+            <h1 id="persona-tag">Java 开发</h1>
+        </div>
+        <div class="profile info-unit">
+            <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+            <hr>
+            <ul class="info-list">
+                <li><label class="left-label">姓名</label><span class="label-value">郑森文</span></li>
+                <li><label class="left-label">性别</label><span class="label-value">女</span></li>
+                <li><label class="left-label">年龄</label><span class="label-value">23</span></li>
+                <li><label class="left-label">学历</label><span class="label-value">本科</span></li>
+                <li><label class="left-label">毕业院校</label><span class="label-value">四川旅游学院</span></li>
+                <li><label class="left-label">毕业年份</label><span class="label-value">2018.6</span></li>
+                <li><label class="left-label">目前状态</label><span class="label-value">在职</span></li>
+                <li><label class="left-label">政治面貌</label><span class="label-value">中共党员</span></li>
+                <li><label class="left-label">语言能力</label><span class="label-value">英语、普通话</span></li>
+                <li><label class="left-label">手机</label><span class="label-value">18328023198</span></li>
+                <li><label class="left-label">邮箱</label><span class="label-value">senwenzheng@aliyun.com</span></li>
+                <!--<li><label class="left-label">博客</label><span class="label-value">https://my.oschina.net/u/2356355</span></li>-->
+                <!--<li><label class="left-label">Github</label><span class="label-value">https://github.com/Chilies</span></li>-->
+                <li><label class="left-label">期望地点</label><span class="label-value">成都</span></li>
+                <li><label class="left-label">期望薪资</label><span class="label-value">面议</span></li>
+            </ul>
+        </div>
+
+        <!--联系方式-->
+        <!--<div class="contact info-unit">-->
+            <!--<h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>-->
+            <!--<hr>-->
+            <!--<ul class="info-list">-->
+                <!--<li>-->
+                    <!--<label class="left-label">手机</label><span class="label-value">18328023198</span></li>-->
+                <!--<li>-->
+                    <!--<label class="left-label">邮箱</label><span class="label-value">senwenzheng@aliyun.com</span></li>-->
+                <!--<li>-->
+                    <!--<label class="left-label">Github</label><span class="label-value">https://github.com/Chilies</span>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+
+        <!--职业意向-->
+        <!--<div class="contact info-unit">-->
+            <!--<h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">职业意向</span></h2>-->
+            <!--<hr>-->
+            <!--<ul class="info-list">-->
+                <!--<li>-->
+                    <!--<label class="left-label">期望职位</label><span class="label-value">Java开发工程师</span></li>-->
+                <!--<li>-->
+                    <!--<label class="left-label">期望地点</label><span class="label-value">成都</span></li>-->
+                <!--<li>-->
+                    <!--<label class="left-label">期望薪资</label><span class="label-value">面议</span>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+
+        <!--编程语言 进度条 -->
+        <!--<div class="skill info-unit">-->
+            <!--<h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">编程语言</span></h2>-->
+            <!--<hr>-->
+            <!--<ul class="progress-list">-->
+                <!--<li>-->
+                    <!--<label class="left-label">Java</label>-->
+                    <!--<progress value="80" max="100"></progress>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<label class="left-label">Python</label>-->
+                    <!--<progress value="75" max="100"></progress>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<label class="left-label">html/css</label>-->
+                    <!--<progress value="50" max="100"></progress>-->
+                <!--</li>-->
+
+                <!--<li>-->
+                    <!--<label class="left-label">jQuery</label>-->
+                    <!--<progress value="60" max="100"></progress>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--<label class="left-label">Android</label>-->
+                    <!--<progress value="70" max="100"></progress>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+
+        <!--技术栈-->
+        <!--<div class="stack info-unit">-->
+            <!--<h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>-->
+            <!--<hr>-->
+            <!--<ul class="stack-list">-->
+                <!--<li><label class="left-label">后台框架</label><span class="label-value">-->
+                        <!--熟悉SpringBoot、SpringMVC、Hibernate、Mybatis框架进行项目开发</span></li>-->
+                <!--<li><label class="left-label">数据库</label><span class="label-value">-->
+                        <!--熟练使用Oracle11g、MySQL、SQLServer2008R2关系型数据库设计项目</span></li></li>-->
+                 <!--<li><label class="left-label">数据库</label><span class="label-value">-->
+                        <!--熟练使用Oracle11g、MySQL、SQLServer2008R2、Redis</span></li></li>-->
+                <!--<li><label class="left-label">版本管理</label><span class="label-value">-->
+                         <!--熟练使用Git、SVN管理源码</span></li>-->
+                <!--<li><label class="left-label">构建工具</label><span class="label-value">-->
+                         <!--熟练使用Maven、Gradle构建项目</span></li>-->
+                <!--<li><label class="left-label">前端</label><span class="label-value">-->
+                    <!--Ajax、jQuery、JSP、Thymeleaf、Velocity、Html5</span></li>-->
+                <!--<li><label class="left-label">开发工具</label><span class="label-value">-->
+                         <!--Eclipse、IntelliJ IDEA、阿里云RPA Studio</span></li>-->
+                <!--<li><label class="left-label">其它</label><span class="label-value">-->
+                    <!--linux基础、Android</span></li>-->
+
+            <!--</ul>-->
+        <!--</div>-->
+
+        <!--微信二维码-->
+        <!--<div class="code info-unit">-->
+            <!--<h2 class="info-header"><i class="iconfont icon-git"></i> <span class="info-title">微信二维码</span></h2>-->
+            <!--<hr>-->
+            <!--<div class="git">-->
+                <!--<img src="static/image/weixin.png" alt="">-->
+            <!--</div>-->
+        <!--</div>-->
+
+        <!--码云Gitee个人主页-->
+        <div class="code info-unit">
+            <h2 class="info-header"><i class="iconfont icon-git"></i> <span class="info-title">码云Gitee个人主页</span></h2>
+            <hr>
+            <div class="git">
+                <img src="static/image/zsw-gitee.png" alt="">
+            </div>
+        </div>
+        <!--博客二维码-->
+        <div class="code info-unit">
+            <h2 class="info-header"><i class="iconfont icon-git"></i> <span class="info-title">博客</span></h2>
+            <hr>
+            <div class="git">
+                <img src="static/image/blog.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main">
+
+         <div class="work info-unit right-list">
+            <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">项目经历</span></h2>
+            <hr>
+             <ul class="experience-list">
+                <li>
+                    <h3><b>2019.6-2019.10 电票机器人</b></h3>
+                    <h4>项目职务：研发工程师</h4>
+                    <h4>项目描述：</h4>
+                    <p>
+                        电票机器人，处理的是资金平台待处理的电子商业承兑汇票，
+                        用于减少财务人员手工操作重复性的工作以及降低出错率。
+                        通过RPA爬取网银控件，完成各类银行各个地区的登录、电票开具，
+                        开票结果检查并生成资金平台台账，
+                        每周定时核实下周待兑付的电票信息是否与资金平台一致，
+                        核对结果和待兑付电票，发送预警龙信通知和OA待办，
+                        每日执行到期提示付款检查及兑付操作，兑付后状态和流水核对等；
+                    </p>
+                    <h4>项目职责：</h4>
+                    <p>1、负责跟产品确认电票需求，从开票到结束的5个流程的操作视频，各种情况的龙信通知模板和接收人；</p>
+                    <p>2、负责跟资金平台确认票据同步方式，更新机器人处理状态接口，推送票面信息生成台账接口；</p>
+                    <p>3、负责跟龙湖OA系统联调推送待办任务接口，跟龙信系统联调发送龙信消息接口；</p>
+                    <p>4、负责开发同步FTP上区域、地区龙信对照excel中的数据到对应的表；</p>
+                    <p>5、负责设计系统架构和数据库表、字段设计；</p>
+                    <p>6、使用阿里云RPA爬取网页控件，开发网银业务流程和检查规则逻辑代码;</p>
+                    <p>7、负责系统业务功能测试、上线发布到无人值守机器人；</p>
+                    <h4>开发环境：</h4>
+                    <p>阿里云RPA Studio</p>
+                    <h4>系统架构：</h4>
+                    <p>同步Excel：SpringMVC+Mybatis+Oracle11g</p>
+                    <p>电票流程：阿里云RPA+Python+Oracle11g</p>
+                    <h4>服务器环境：</h4>
+                    <p>使用Linux(CentOS) + Tomcat7.5</p>
+                </li>
+            </ul>
+             <ul class="experience-list">
+                <li>
+                    <h3><b>2019.3-2019.7 单据审核机器人</b></h3>
+                    <h4>项目职务：研发工程师</h4>
+                    <h4>项目描述：</h4>
+                    <p>
+                        单据审核机器人主要是面向龙湖地产公司的财务人员，
+                        用于处理共享系统待处理的业务系统（地产成本、商业成本、物业成本、费控、成本6.0）单据，
+                        从上述5个系统中采集单据、影像和发票数据，汇总后推送给令才众包系统，
+                        同时从众包拉取已审核完成的结果，完成回传共享系统审核结果的业务；
+                        单据审核主要分为数据采集、推送众包、拉取审核结果、回传共享以及异常处理一共5个功能模块。
+                    </p>
+                    <h4>项目职责：</h4>
+                    <p>1、负责跟产品梳理单据审核的业务需求和单据范围，异常处理方案；</p>
+                    <p>2、负责跟共享系统、业务系统和令才众包系统确认数据交互方式、接口报文内容；</p>
+                    <p>3、负责设计单据、影像、业务系统单据和发票的数据库表和字段；</p>
+                    <p>4、负责开发共享同步单据、影像，共享更新单据审核状态3个接口；</p>
+                    <p>5、负责设计系统架构，单据正常执行流程，以及几种异常处理机制；</p>
+                    <p>6、负责开发系统的所有功能模块和迭代开发；</p>
+                    <p>7、负责系统上线发布，重启无人值守机器；</p>
+                    <h4>开发环境：</h4>
+                    <p>阿里云RPA Studio</p>
+                    <h4>系统架构：</h4>
+                    <p>接口部分：SpringMVC+Mybatis+Oracle11g</p>
+                    <p>审核流程部分：Python+Oracle11g</p>
+                    <h4>服务器环境：</h4>
+                    <p>使用Linux(CentOS) + Tomcat7.5</p>
+                </li>
+            </ul>
+             <ul class="experience-list">
+                <li>
+                    <h3>2018.6-2019.1</h3>
+                    <h3>歌华有线数据质量管控平台</h3>
+                    <h4><b>项目简介：</b></h4>
+                    <p>
+                        该项目是以数据治理为需求进行的，通过该平台实现客户对企业数据资产的多方位监控，
+                        便于统一业务部门和技术部门的标准，提高企业数据资产质量。
+                    </p>
+
+                    <h4><b>责任描述：</b></h4>
+                    <p>
+                        1、数据标准模块，开发数据标准维护菜单，包括公共代码、指标和信息项依赖关系管理页面及接口，
+                        绘制数据标准树，标准增删改维护功能，标准依赖详情等页面。
+                    </p>
+                    <p>
+                        2、数据质量模块，开发知识库管理菜单，包括质量问题的登记、解决记录和文件上传下载。
+                    </p>
+                    <p>
+                        3、元数据模块，开发元数据快速检索功能。
+                    </p>
+                    <p>
+                        4、修复数据质量管控平台开发中后期测试出现的bug。
+                    </p>
+                    <p>
+                        5、配合客户进行项目UAT测试、系统演示。
+                        <br/>
+                    </p>
+
+                    <h4><b>开发环境：</b></h4>
+                    <p>
+                        Eclipse、Oracle11g
+                    </p>
+
+                    <h4><b>系统架构：</b></h4>
+                    <p>
+                        使用SSH + Oracle11g。
+                    </p>
+
+                    <h4><b>服务器环境：</b></h4>
+                    <p>
+                        使用Linux(centos) + Tomcat7。
+                    </p>
+                </li>
+
+            </ul>
+             <ul class="experience-list">
+                <li>
+                    <h3>2017.6-2018.3</h3>
+                    <h3>301解放军总医院内科营养餐厅美食网站</h3>
+                    <h4><b>项目简介：</b></h4>
+                    <p>
+                        整个项目是围绕军需物资处内科营养室下辖各个餐厅的特色美食进行的，系统面向人群是需要在医院就餐的内部医护工作者和病人及家属。
+                    </p>
+                    <h4><b>责任描述：</b></h4>
+                    <p>
+                        1、权限管理模块，开发用户角色权限控制后台接口及页面，系统管理员对业务人员的权限进行赋权。
+                    </p>
+                    <p>
+                        2、实时信息模块，通过ajax实时拉取接口，刷新页面需要实时展示的信息。
+                    </p>
+                    <p>
+                        3、开发餐厅特色信息模块，美食详情模块，外带模块，单位简介页面。
+                    </p>
+                    <p>
+                        4、根据项目需求对系统进行功能测试，维护系统稳定运行。
+                    </p>
+                    <h4><b>开发环境：</b></h4>
+                    <p>
+                        idea、SQLServer2008R2
+                    </p>
+
+                    <h4><b>系统架构：</b></h4>
+                    <p>
+                        使用SpringBoot + hibernate + SQLServer2008R2 + thymeleaf + jQuery。
+                    </p>
+
+                    <h4><b>服务器环境：</b></h4>
+                    <p>
+                        使用centos6.5 + windowsServer。
+                    </p>
+                </li>
+
+            </ul>
+             <ul class="experience-list">
+                <li>
+                    <h3>2019.9-2019.10</h3>
+                    <h3><b>离职机器人</b></h3>
+                    <h4>项目描述：</h4>
+                    <p>
+                        该项目是以数据治理为需求进行的，通过该平台实现客户对企业数据资产的多方位监控，
+                        便于统一业务部门和技术部门的标准，提高企业数据资产质量。
+                    </p>
+
+                    <h4>项目职责：</h4>
+                    <p>
+                        1、数据标准模块，开发数据标准维护菜单，包括公共代码、指标和信息项依赖关系管理页面及接口，
+                        绘制数据标准树，标准增删改维护功能，标准依赖详情等页面。
+                    </p>
+                    <p>
+                        2、数据质量模块，开发知识库管理菜单，包括质量问题的登记、解决记录和文件上传下载。
+                    </p>
+                    <p>
+                        3、元数据模块，开发元数据快速检索功能。
+                    </p>
+                    <p>
+                        4、修复数据质量管控平台开发中后期测试出现的bug。
+                    </p>
+                    <p>
+                        5、配合客户进行项目UAT测试、系统演示。
+                        <br/>
+                    </p>
+
+                    <h4>开发环境：</h4>
+                    <p>Eclipse、Oracle11g</p>
+                    <h4>系统架构：</h4>
+                    <p>使用SSH + Oracle11g。</p>
+                    <h4>服务器环境：</h4>
+                    <p>使用Linux(centos) + Tomcat7</p>
+                </li>
+
+            </ul>
+             <ul class="experience-list">
+                <li>
+                    <h3>2017.6-2018.3</h3>
+                    <h3>301解放军总医院内科营养餐厅美食网站</h3>
+                    <h4><b>项目简介：</b></h4>
+                    <p>
+                        整个项目是围绕军需物资处内科营养室下辖各个餐厅的特色美食进行的，系统面向人群是需要在医院就餐的内部医护工作者和病人及家属。
+                    </p>
+                    <h4><b>责任描述：</b></h4>
+                    <p>
+                        1、权限管理模块，开发用户角色权限控制后台接口及页面，系统管理员对业务人员的权限进行赋权。
+                    </p>
+                    <p>
+                        2、实时信息模块，通过ajax实时拉取接口，刷新页面需要实时展示的信息。
+                    </p>
+                    <p>
+                        3、开发餐厅特色信息模块，美食详情模块，外带模块，单位简介页面。
+                    </p>
+                    <p>
+                        4、根据项目需求对系统进行功能测试，维护系统稳定运行。
+                    </p>
+                    <h4><b>开发环境：</b></h4>
+                    <p>
+                        idea、SQLServer2008R2
+                    </p>
+
+                    <h4><b>系统架构：</b></h4>
+                    <p>
+                        使用SpringBoot + hibernate + SQLServer2008R2 + thymeleaf + jQuery。
+                    </p>
+
+                    <h4><b>服务器环境：</b></h4>
+                    <p>
+                        使用centos6.5 + windowsServer。
+                    </p>
+                </li>
+
+            </ul>
+
+
+            <ul class="experience-list">
+                <li>
+                    <h3><b>2018.6-2019.2 歌华有线数据质量管控平台</b></h3>
+                    <h4>项目职务：研发工程师</h4>
+                    <h4>项目描述：</h4>
+                    <p>
+                        歌华有线数据质量管控平台，这个平台服务于企业对数据的综合治理，
+                        包括多方位监控企业拥有的数据资产，清查企业的数据质量，在业务部门和技术部门的制定统一的标准等。
+                        围绕上述需求，项目通过ETL整合企业数据，集成了一个包含数据质量、元数据、数据标准等模块的网站系统。
+                    </p>
+                    <h4>项目职责：</h4>
+                     <!--<p>-->
+                        <!--1、数据标准模块，开发数据标准维护菜单，包括公共代码、指标和信息项依赖关系管理页面及接口，-->
+                        <!--绘制数据标准树，标准增删改维护功能，标准依赖详情等页面。-->
+                        <!--2、数据质量模块，开发知识库管理菜单，包括质量问题的登记、解决记录和文件上传下载。-->
+                        <!--3、元数据模块，开发元数据快速检索功能。-->
+                        <!--4、修复数据质量管控平台开发中后期测试出现的bug。-->
+                        <!--5、配合客户进行项目UAT测试、系统演示。-->
+                    <!--</p>-->
+                    <p>1、数据质量模块，负责开发检核方法、质量问题登记和知识库部分的功能；</p>
+                    <p>2、数据标准模块，创建公共代码、指标和信息项依赖关系管理功能开发；</p>
+                    <p>3、元数据模块，负责快速检索、分词检索功能开发；</p>
+                    <p>4、负责绘制前台数据标准树和资产统计报表；</p>
+                    <p>5、负责接入歌华有线单点登录系统；</p>
+                    <p>6、参与整个网站系统的Bug修复；</p>
+                    <p>7、参与编写UAT测试用例及相关验收文档；</p>
+                    <p>8、向客户进行系统演示说明及项目验收；</p>
+                    <h4>开发环境：</h4>
+                    <p>Eclipse</p>
+                    <h4>系统架构：</h4>
+                    <p>SpringMVC + Mybatis</p>
+                    <h4>服务器环境：</h4>
+                    <p>使用Linux(CentOS) + Tomcat7</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="project info-unit right-list">
+            <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h2>
+            <hr>
+            <ul class="experience-list">
+                <li>
+                    <h3>班级网站 | JavaWeb | 2015.6-2015.9</h3>
+                    <h4><b>项目描述：</b></h4>
+                    <p>
+                        为了方便老师管理班级事务，监督学生的学习情况，需要一个可以发布公告和新闻、
+                        查阅学生日志和博客，了解作业提交情况的班级门户网站。
+                        <br/>
+                    </p>
+                    <h4><b>责任描述：</b></h4>
+                    <p>
+                        1. 参与编写UserStory、需求文档，数据库设计。
+                        <br/>
+                    </p>
+                    <p>
+                        2. 通过jsp + servlet实现学生注册登录，发布和管理日志、博客以及评论模块。
+                        <br/>
+                    </p>
+                    <p>
+                        3. 协助实现百度编辑器UEditor嵌入，完成后台新闻发布，管理新闻的功能。
+                        <br/>
+                    </p>
+                    <p>
+                        4. 使用spring mvc + hibernate + velocity重构代码，管理新闻和成就的发布功能。
+                        <br/>
+                    </p>
+                </li>
+                <li>
+                    <h3>基于Android的城市定向旅游平台 | Android | 2016.7-2017.2</h3>
+                    <h4><b>项目描述：</b></h4>
+                    <p>
+                        某体育学院一个创新创业团队，需要做一个定向运动的宣传、组织、参赛和竞赛的平台，
+                        帮助定向运动爱好者们了解最新的赛事，报名缴费，在线点标，发布朋友圈等。
+                    </p>
+                    <h4><b>责任描述：</b></h4>
+                    <p>
+                        1. 参与需求整理，接口设计，UI设计。
+                        <br/>
+                    </p>
+                    <p>
+                        2. 实现页面效果，使用Volley网络框架请求数据，完成赛事新闻评论和投票、用户组团报名流程。
+                        <br/>
+                    </p>
+                    <p>
+                        3. 协调体院，申请支付宝接口，实现Android端支付宝支付业务。
+                        <br/>
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="trophy info-unit">
+            <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>
+            <hr>
+            <ul class="experience-list">
+                <li>
+                    <p>
+                        2014年参与“E起筹”大学生创新创业，2015年荣获了四川省优秀创业项目的奖杯。
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        2015年参与了基于Android的城市定向旅游app项目开发，2017年负责了“挑战杯”的申报和比赛流程，
+                        获得第十四届四川省“挑战杯”省二等奖。
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        2015年，通过英语四级和计算机二级。
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="aboutme info-unit right-paragraph">
+            <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+            <hr>
+            <p>
+                我是一个负责任的人，工作中尽职尽责，稳中求进，喜欢和一群人在一起努力，
+                解决问题，完成公司安排的任务，从中获得成就感。我习惯于真诚地与人相处，
+                谦虚地向技术大牛们学习。面对高强度的工作压力，我有释放压力的方式，
+                想通过长期地坚持，提高自己的技术水平。
+            </p>
+        </div>
+
+    </div>
+</div>
+</body>
+
+</html>
